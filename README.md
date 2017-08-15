@@ -9,6 +9,6 @@ _It's a little messy for now, I plan on turning it into a command line utility, 
 - run `chmod +x migrate.sh` to give the script execution privs 
 - `npm run migrate` will migrate your posts and serve them 
 
-Additionally, if you don't want to remigrate your files, you can just run `npm run serve` to serve them. 
+Additionally, if you don't want to remigrate your posts into the database, you can just run `npm run serve` to serve them. 
 
 
