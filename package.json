@@ -1,0 +1,19 @@
+{
+  "name": "markdown-to-api",
+  "version": "1.0.0",
+  "description": "Parse your existing markdown files as an API using json-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "json-server db.json",
+    "migrate": "./migrate.sh"
+  },
+  "keywords": ["markdown-to-json", "json-to-api", "markdown api"],
+  "author": "Soham Adwani (http://snazzyham.com)",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^3.0.2",
+    "json-server": "^0.12.0",
+    "node-json-db": "^0.7.3"
+  }
+}
