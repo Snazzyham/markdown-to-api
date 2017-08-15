@@ -5,7 +5,7 @@ if [ -f ./db.json ]; then
 fi
 
 echo "migrating all markdown files to json"
-node index.js *.md 
+node index.js posts/*.md 
 
 echo "serving using json-server"
 npm run serve 
