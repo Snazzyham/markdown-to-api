@@ -11,4 +11,4 @@ _It's a little messy for now, I plan on turning it into a command line utility, 
 
 Additionally, if you don't want to remigrate your posts into the database, you can just run `npm run serve` to serve them. 
 
-
+![](./screencap.gif)
