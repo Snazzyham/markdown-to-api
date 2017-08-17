@@ -14,9 +14,8 @@ for (let i = 2; i < process.argv.length; i++) {
   let obj = matter(str);
   let post = {
     id: ++id,
-    title: obj.data.title,
-    date: obj.data.date_published,
-    content: obj.content
+    content: obj.content,
+    matter: obj.data
   };
   posts.push(post);
 }
