@@ -14,3 +14,16 @@ To make it work with more than just jekyll, it now pulls all the front matter in
 Additionally, if you don't want to remigrate your posts into the database, you can just run `npm run serve` to serve them. 
 
 ![](./screencap.gif)
+
+# UPDATE NOTES
+
+This now works as a full on node app, rather than a compilation of bash scripts and node apps as before. 
+
+It's also now packaged using [pkg](), so you can go to the [releases section]() and download the package from there, and just run `./....` without having to do the whole npm install thing. Huzzah!
+
+**INSERT GIF HERE** 
+
+Unfortunately, this also means that there's no separate `migrate` and `serve` command, everytime you run it it just migrates and serves. If you don't want to serve it you can just `ctrl-c` and cancel the server, but I get that thats not really elegant so I'm working on something else.   
+
+
+If you prefer the old way of doing things, go the [legacy branch] and get that one, it still works the way it used to! 
