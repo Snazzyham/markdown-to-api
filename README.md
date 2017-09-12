@@ -19,7 +19,11 @@ Additionally, if you don't want to remigrate your posts into the database, you c
 
 This now works as a full on node app, rather than a compilation of bash scripts and node apps as before. 
 
-It's also now packaged using [pkg](), so you can go to the [releases section]() and download the package from there, and just run `./....` without having to do the whole npm install thing. Huzzah!
+~~It's also now packaged using [pkg](), so you can go to the [releases section]() and download the package from there, and just run `./....` without having to do the whole npm install thing. Huzzah!
+~
+~
+
+So the package doesnt work yet, and theres no releases, but it does work as a node app. So if you type `node index.js [path to all your md files]`, it will compile them to db.jsonand serve your posts on localhost:3000. 
 
 **INSERT GIF HERE** 
 
